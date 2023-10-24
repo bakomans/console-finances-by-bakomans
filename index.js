@@ -95,7 +95,7 @@ var finances = [
   var greatestIncrease = { date: "", amount: 0 };
   var greatestDecrease = { date: "", amount: 0 };
   
-  // Loop through the dataset to perform calculations
+  // loop for analysist
   for (var i = 0; i < finances.length; i++) {
       var currentData = finances[i];
       var currentAmount = currentData[1];

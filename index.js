@@ -125,7 +125,7 @@ var finances = [
   
   // Variables that store data
   var totalMonths = finances.length;
-  var totalProfitLosses = 0;
+  var totalIncome = 0;
   var changeInProfits = 0;
   var greatestIncrease = { date: "", amount: 0 };
   var greatestDecrease = { date: "", amount: 0 };
@@ -134,7 +134,7 @@ var finances = [
   for (var i = 0; i < finances.length; i++) {
       var currentData = finances[i];
       var currentAmount = currentData[1];
-      totalProfitLosses += currentAmount;
+      totalIncome += currentAmount;
   
       if (i > 0) {
           var previousAmount = finances[i - 1][1];
@@ -160,7 +160,7 @@ var finances = [
   console.log("Financial Analysis by bakomans");
   console.log("----------------------------");
   console.log("Total Months: " + totalMonths);
-  console.log("Total: " + totalProfitLosses);
+  console.log("Total: " + totalIncome);
   console.log("Average Change: " + averageChange);
   console.log("Greatest Increase in Profits/Losses: " + greatestIncrease.date + " (" + greatestIncrease.amount + ")");
   console.log("Greatest Decrease in Profits/Losses: " + greatestDecrease.date + " (" + greatestDecrease.amount + ")");

@@ -11,3 +11,17 @@ The dataset is stored in a JavaScript array named `finances`. It includes entrie
   ['Month-Year', ProfitOrLoss],
   
 ]
+## License 
+
+This project is MIT license 
+
+## Deployment 
+
+![Please find this project on my GitHub](image.png)
+
+
+URL: https://bakomans.github.io/console-finances-by-bakomans/
+
+## Thanks 
+
+Thank for everyone looking for this project !

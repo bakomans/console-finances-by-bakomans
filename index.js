@@ -118,7 +118,7 @@ var finances = [
       }
   }
   
-  // Calculate the average change in profits
+  // Calculate the average 
   var averageChange = (changeInProfits / (totalMonths - 1));
   
   // Print the financial analysis to the console
